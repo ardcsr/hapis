@@ -1,0 +1,15 @@
+{
+	"name": "dev",
+	"dbName": {
+	  "drug": "drug-info"
+	},
+	"dbOpts": [
+	  {
+		"url": "mongodb://baeschool:n48N1548xyKqvT9@dev.baeslab.com:38201/drug-info?authSource=school_portal",
+		"settings": {
+		  "poolSize": 10
+		},
+		"decorate": true
+	  }
+	]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "HAPIS",
+  "version": "1.0.0",
+  "description": "Drug Information and Identification System",
+  "main": "server.js",
+  
+  "author": "PEERADACHL",
+  
+
+  "dependencies": {
+    "async": "^2.4.1",
+    "fs": "0.0.1-security",
+    "hapi": "^16.3.0",
+    "hapi-auth-jwt2": "^7.2.4",
+    "hapi-cors": "^1.0.1",
+    "hapi-mongodb": "^6.2.1",
+    "inert": "^4.2.0",
+    "jsonwebtoken": "^7.4.1",
+    "md5": "^2.2.1",
+    "path": "^0.12.7",
+    "uuid": "^3.0.1"
+  }
+}
