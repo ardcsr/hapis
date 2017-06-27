@@ -2,6 +2,15 @@ var exports = module.exports = {};
 var util = require('../util');
 
 const drugModel = {
+	_GeName: "",
+	_BrandName:"",
+	_Area: "",
+	_Radius: "",
+	_Circularity: "",
+	_Shape: "",
+	_colors: "",
+	_Identify: "",
+	status: 1
 	
 }
 
@@ -21,7 +30,7 @@ exports.routes = [
 
 				payload.lastupdate = new Date();
 
-				db.collection('drugs').findOne({ _name: payload._name }, function (err, res) {
+				db.collection('drugs').findOne({ _name: payload._GeName }, function (err, res) {
 					if (err) {
 						return reply({
 							statusCode: 500,
